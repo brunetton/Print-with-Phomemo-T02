@@ -16,6 +16,8 @@ For [some reason](https://github.com/vivier/phomemo-tools/issues/30) I'm unable 
 
 ## Usage
 
+### Connect to printer (Bluetooth)
+
 - make a PNG **without transparency** from the image you want to print
 - switch printer on
 - connect printer via *serial com* other bluetooth
