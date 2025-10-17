@@ -16,9 +16,10 @@ For [some reason](https://github.com/vivier/phomemo-tools/issues/30) I'm unable 
 
 ## Usage
 
+- choose the image you want to print. If using PNG format, make sure there is **no transparency**
+
 ### Connect to printer (Bluetooth)
 
-- make a PNG **without transparency** from the image you want to print
 - switch printer on
 - connect printer via *serial com* other bluetooth
   - you can use [*blueman-manager*](https://github.com/blueman-project/blueman) to easilly to this with a GUI:
@@ -49,7 +50,7 @@ I'm using this script as a [Nautilus Action](https://github.com/bassmanitram/act
     "command_line": "/home/bruno/dev/Print-with-Phomemo-T02/print-with-T02.sh %f",
     "cwd": "%d",
     "mimetypes": [
-        "image/png"
+        "image/*"
     ]
 },
 ```
